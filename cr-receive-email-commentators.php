@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Cr Receive Emaile Commentatorsz
- * Plugin URI: https://github.com/WP-Panda/receive-email-commentators
+ * Plugin Name: Cr Receive Emaile Commentators
+ * Plugin URI: https://github.com/WP-Panda/cr-receive-email-commentators
  * Description: Плагин предназначен для сбора адресов электронной почты авторов комментариев, и экспорта их в CSV файл. В целях безопасности, и сохранения конфедициальности, рекомендуется активировать плагин только когда надо получить данные, после чего его желательно отключить. При деактивации плагин удаляет сфоримрованные им файлы."
  * Version: 1.0.0
  * Author: Максим (WP_Panda) Попов
