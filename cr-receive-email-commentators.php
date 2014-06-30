@@ -33,12 +33,12 @@ register_deactivation_hook( __FILE__, 'cr_receive_email_commentators_deactivate'
 		}
 
 		function admin_menu () {
-			add_submenu_page( 'tools.php',__( "Cr E-mailes импорт", "wp_panda" ),__( "Cr E-mailes импорт", "wp_panda" ),'manage_options','cr-receive-email-commentators-submenu-page', array( $this, 'cr_receive_email_commentators_settings_page' ) );
+			add_submenu_page( 'tools.php',__( "Cr E-mailes экспорт", "wp_panda" ),__( "Cr E-mailes экспорт", "wp_panda" ),'manage_options','cr-receive-email-commentators-submenu-page', array( $this, 'cr_receive_email_commentators_settings_page' ) );
 		}
 		
 		function  cr_receive_email_commentators_settings_page () { ?>
 			<div class="wrap">
-				<h2><i class="dashicons dashicons-id" style="margin-right: 1em; margin-bottom: 1em; font-size: 1.5em; color: rgb(30, 140, 190);"></i><?php _e('Cr E-mailes импорт','wp_panda'); ?></h2>
+				<h2><i class="dashicons dashicons-id" style="margin-right: 1em; margin-bottom: 1em; font-size: 1.5em; color: rgb(30, 140, 190);"></i><?php _e('Cr E-mailes экспорт','wp_panda'); ?></h2>
 				<span class="button button-primary email-parse"><?php _e('Получить адреса',' wp_panda'); ?></span>
 				<div class="email-append"><?php cr_receive_laterst_file(); ?></div>
 			</div>
